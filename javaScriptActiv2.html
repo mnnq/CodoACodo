@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiplicacion</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function tablasMultiplicar(a,b){
+			for (i=a;i<=b;i++){
+				document.write("<br><b>La tabla del " + i + ":</b><br>")
+				for (j=1;j<=10;j++) {
+					document.write(i + " x " + j + ": ")
+					document.write(i*j)
+					document.write("<br>")
+				}
+			}
+		}
+		window.onload = tablasMultiplicar(9,11);
+	</script>
+
+</body>
+</html>
